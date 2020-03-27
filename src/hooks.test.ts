@@ -1,4 +1,4 @@
-import {useState, useReducer} from "react";
+import {useState} from "react";
 import {renderHook, act} from "@testing-library/react-hooks";
 
 export const useSetState = <State = any>(
